@@ -1,0 +1,165 @@
+{
+  "projectType": "saas",
+  "projectName": "OpenPanel",
+  "projectDescription": "An open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
+  "theme": "mint",
+  "primaryColor": "#848484",
+  "lightColor": "#101010",
+  "darkColor": "#c1c1c1",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "features",
+              "comparison"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/quickstart",
+              "getting-started/installation",
+              "getting-started/track-events",
+              "getting-started/identify-users"
+            ]
+          },
+          {
+            "group": "SDKs",
+            "pages": [
+              "sdks/overview",
+              "sdks/javascript",
+              "sdks/nextjs",
+              "sdks/react",
+              "sdks/vue",
+              "sdks/nuxt",
+              "sdks/astro",
+              "sdks/react-native",
+              "sdks/express",
+              "sdks/python",
+              "sdks/ruby",
+              "sdks/rust",
+              "sdks/kotlin",
+              "sdks/swift"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/funnels",
+              "features/session-replay",
+              "features/real-time-dashboards",
+              "features/ab-testing",
+              "features/notifications",
+              "features/user-profiles",
+              "features/cohorts",
+              "features/custom-dashboards"
+            ]
+          },
+          {
+            "group": "Tracking",
+            "pages": [
+              "tracking/how-it-works",
+              "tracking/revenue-tracking",
+              "tracking/consent-management",
+              "tracking/adblockers"
+            ]
+          },
+          {
+            "group": "Self-Hosting",
+            "pages": [
+              "self-hosting/overview",
+              "self-hosting/docker-compose",
+              "self-hosting/kubernetes",
+              "self-hosting/coolify",
+              "self-hosting/dokploy",
+              "self-hosting/environment-variables",
+              "self-hosting/migrating-from-clerk",
+              "self-hosting/changelog"
+            ]
+          },
+          {
+            "group": "Dashboard",
+            "pages": [
+              "dashboard/overview",
+              "dashboard/notifications-and-integrations"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Tracking API",
+            "pages": [
+              "api/track",
+              "api/identify",
+              "api/alias",
+              "api/increment"
+            ]
+          },
+          {
+            "group": "Insights API",
+            "pages": [
+              "api/insights/overview",
+              "api/insights/events",
+              "api/insights/funnels",
+              "api/insights/retention"
+            ]
+          },
+          {
+            "group": "Management API",
+            "pages": [
+              "api/manage/projects",
+              "api/manage/events",
+              "api/manage/profiles"
+            ]
+          },
+          {
+            "group": "Export API",
+            "pages": [
+              "api/export"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Advanced analytics with funnels, cohorts, and user profiles",
+    "Session replay with privacy controls",
+    "Real-time dashboards with live data updates",
+    "A/B testing with variant breakdowns",
+    "Smart notifications for events and funnels",
+    "Privacy-first cookieless tracking",
+    "Comprehensive SDKs for web, mobile, and server-side",
+    "Self-hosting support with Docker, Kubernetes, and more",
+    "tRPC-based API for type-safe access",
+    "Custom dashboards and data visualization"
+  ],
+  "publicApiSurface": [
+    "POST /track - Track events",
+    "POST /identify - Identify users",
+    "POST /alias - Alias users",
+    "POST /increment - Increment properties",
+    "GET /insights - Query insights",
+    "GET /export - Export data",
+    "tRPC endpoints for dashboard management",
+    "@openpanel/sdk - JavaScript SDK",
+    "@openpanel/nextjs - Next.js SDK",
+    "@openpanel/web - Web SDK",
+    "@openpanel/react-native - React Native SDK"
+  ]
+}
